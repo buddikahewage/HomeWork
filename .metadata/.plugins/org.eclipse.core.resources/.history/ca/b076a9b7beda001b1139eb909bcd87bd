@@ -1,0 +1,9 @@
+package hw3Q3JavaBasics;
+
+public class MyAddress03 {
+
+	public static void main(String[] args) {
+
+	}
+
+}

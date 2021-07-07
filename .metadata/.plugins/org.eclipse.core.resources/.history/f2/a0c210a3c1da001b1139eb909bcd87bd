@@ -1,0 +1,27 @@
+package hw3Q3JavaBasics;
+
+public class MyAddress03 {
+
+	public static void main(String[] args) {
+		 String MyName = "Bonny Hewage";
+		 int houseNumber = 2920;
+		 String StreetName = "Hone Ave";
+		 String CityName = "Bronx";
+		 String StateName = "NY";
+		 int zipCode = 10469;
+		 boolean inNY = true;
+		
+		
+		
+		System.out.println(MyName);
+		System.out.println(houseNumber);
+		System.out.println(StreetName);
+		System.out.println(CityName);
+		System.out.println(StateName);
+		System.out.println(zipCode);
+		System.out.println(inNY);
+		
+
+	}
+
+}

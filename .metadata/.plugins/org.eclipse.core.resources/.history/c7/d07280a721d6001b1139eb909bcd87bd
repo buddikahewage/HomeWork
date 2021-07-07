@@ -1,0 +1,12 @@
+package hw1Q3JavaBasics;
+
+
+public class Good_evening {//Opening Of Class Body
+	
+	
+	public static void main(String[] args) {
+		System.out.println("Hello Everyone");
+		System.out.print("Hello Everyone");
+		System.out.println("Hello Everyone");
+	}
+}//Closing Of The Class Body 

@@ -1,0 +1,9 @@
+package hw2Q3JavaBasics;
+
+public class MyCar {
+
+	public static void main(String[] args) {
+
+	}
+
+}

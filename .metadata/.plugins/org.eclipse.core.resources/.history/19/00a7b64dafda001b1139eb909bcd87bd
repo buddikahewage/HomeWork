@@ -1,0 +1,18 @@
+package hw3Q3JavaBasics;
+
+public class MyAddress03 {
+
+	public static void main(String[] args) {
+		
+		System.out.println(MyName + " " + houseNumber + " "  + houseDirection + " "  + streetNumber + " "  + CityName + " "  + State + " "  + zipCode);
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

@@ -1,0 +1,14 @@
+package hw2Q3JavaBasics;
+
+public class MyCar {
+
+	public static void main(String[] args) {
+		System.out.println("Hello My Car Is A: Toyota Highlander");
+		System.out.println("My Car Model Year Is: 2017");
+		System.out.print("My Car Color Is: Sunburst");
+		System.out.println("My Car Is A: Four Wheel Drive");
+		System.out.println("I have My Car For: 5 Years");
+
+	}
+
+}

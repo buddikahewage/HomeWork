@@ -1,0 +1,14 @@
+package hw3Q3JavaBasics;
+
+public class MyAddress03 {
+	
+	static String MyName = "Bonny Hewage";
+	static int houseNumber = 2920;
+	static String streetName = "Hone Ave";
+	static String cityName = "Bronx";
+	static String stateName = "NY";
+	static int zipCode = 10469;
+	static boolean inNY = true;
+	
+	
+	
