@@ -1,0 +1,29 @@
+package hw4Q3JavaVariablesConstructorAndMethod;
+
+import java.security.PublicKey;
+
+public class MyProfile {
+	public static String MyName = "Bonny";
+	public static char mySex = 'M';
+	public static int myAge = 36;
+	public static boolean usCitizen = true;
+	public static byte yearsWork = 15;
+	public static short myHouseRent = 1400;
+	public static long mySalary = 125000l;
+	public static float myClassGrade = 3.62f;
+	public static double myHight = 1.6000002102315;
+
+	public MyProfile() {
+
+	}
+
+	public static void main(String[] args) {
+		System.out.println("My Name Is:"+ MyName +"My Sex Is:"+ mySex +" My Age Is:"+ myAge+ "I Am A US Citizen:" + usCitizen + " I Worked:"+ yearsWork +"My House Rent Is:"+ myHouseRent + " My Yearly Salary Is:"+ mySalary + "My College Grade Is:" + myClassGrade + " My hight Is :" + myHight);
+		
+		
+
+		
+
+	}
+
+}

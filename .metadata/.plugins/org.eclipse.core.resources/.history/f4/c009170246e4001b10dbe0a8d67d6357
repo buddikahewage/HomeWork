@@ -1,0 +1,28 @@
+package hw5Q3variableAndMethod;
+
+public class TestComputer {
+
+	public static void main(String[] args) {
+		Computer computer = new Computer();
+		computer.MyBrand = "Apple";
+		computer.Model = "MacBookAir";
+		computer.OperatingSystem = "MacOs";
+		computer.price = 800;
+		computer.madeInUsa = false;
+		computer.grade = 'A';
+		computer.computer();
+		
+		Computer computer2 = new Computer();
+		computer2.MyBrand = "Hp";
+		computer2.Model = "HpPavilion";
+		computer2.OperatingSystem = "Windows";
+		computer2.price = 600;
+		computer2.madeInUsa = false;
+		computer2.grade = 'A';
+		computer2.computer();
+		
+		
+
+	}
+
+}

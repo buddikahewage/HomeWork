@@ -1,0 +1,35 @@
+package hw4Q3JavaVariablesConstructorAndMethod;
+
+import java.security.PublicKey;
+
+import javax.swing.DefaultBoundedRangeModel;
+
+public class MyProfile {
+	public static String MyName;
+	public static char mySex;
+	public static int myAge;
+	public static boolean usCitizen;
+	public static byte yearsWork;
+	public static short myHouseRent;
+	public static long mySalary;
+	public static float myClassGrade;
+	public static double myHight;
+
+	public MyProfile() {
+		System.out.println("Bonny");
+	}
+
+	public static void main(String[] args) {
+		System.out.println("My Name Is:" + MyName + " My Sex Is:" + mySex + " My Age Is:" + myAge
+				+ " I Am A US Citizen:" + usCitizen + " I Worked:" + yearsWork + " My House Rent Is:" + myHouseRent
+				+ " My Yearly Salary Is:" + mySalary + "My College Grade Is:" + myClassGrade + " My hight Is :"
+				+ myHight);
+
+		System.out.println(" My Name Is:" + MyName + " \tMy Sex Is:" + mySex + " \tMy Age Is:" + myAge
+				+ " \n I Am A US Citizen:" + usCitizen + " \tI Worked:" + yearsWork + " years" + " \n My House Rent Is:"
+				+ myHouseRent + " \tMy Yearly Salary Is:" + mySalary + " \n My College Grade Is:" + myClassGrade
+				+ " \tMy hight Is :" + myHight);
+
+	}
+
+}

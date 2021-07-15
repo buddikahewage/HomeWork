@@ -1,0 +1,20 @@
+package hw5Q3variableAndMethod;
+
+public class Computer {
+	public String MyBrand;
+	public String Model;
+	public String OperatingSystem;
+	public int price;
+	public boolean madeInUsa;
+	public char grade;
+
+
+
+	public Computer() {
+		System.out.println(" My Computer Brand Is " + MyBrand + " My Computer Model Is " + Model
+				+ " My Computer Operating System Is" + OperatingSystem + " My Computer Price Is" + price
+				+ " My Computer is Made In Usa" + madeInUsa + " My Computer Grade Is" + grade);
+
+	}
+
+}
