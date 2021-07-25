@@ -1,0 +1,14 @@
+package hw6Q4Abstraction01;
+/*ii) You have 2 abstract class name --MedicalSchool, EngineeringSchool already. Create another Abstract Class NursingSchool, create 2 methods inside the Abstract Class - one is abstract and another one is the non-abstract name -- hygiene and caring. Print something inside the non-abstract or implemented method.*/
+
+
+public abstract class NursingSchool {
+	public abstract void hygine();
+	public void carying() {
+		System.out.println("This Is From Carying Method");
+		
+	}
+	
+
+
+}

@@ -1,0 +1,24 @@
+package lec13_java_oop_encapsulation;
+
+public class TestStudent {
+
+	public static void main(String[] args) {
+		Student student = new student();
+		student.setStNameString(null);
+		student.setStId(0);
+		student.setSex(0);
+		student.isUsCitizen();
+		student.setGrade(0);
+		student.setAge(0);
+		System.out.println("private String stNameString;\r\n"
+				+ "	private int stId;\r\n"
+				+ "	private char sex;\r\n"
+				+ "	private boolean usCitizen;\r\n"
+				+ "	private float grade;\r\n"
+				+ "	private double age;");
+		
+		
+
+	}
+
+}

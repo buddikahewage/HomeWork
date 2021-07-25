@@ -1,0 +1,16 @@
+package hw7Q3Encapsulation01;
+
+import hw5Q5Constructor.Student;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		Student.setEmployeeName("Bonny");
+		System.out.println(Student.getEmployeeName());
+		
+		
+
+	}
+
+}

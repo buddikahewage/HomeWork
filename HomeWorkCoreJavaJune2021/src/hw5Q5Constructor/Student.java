@@ -23,14 +23,15 @@ public class Student {
 		this.sex = sex;
 		this.programmer = programmer;
 		this.grade = grade;
-		System.out.println("Student Name Is :" + StudentName + "\nStudent Id Is :" + studentID + "\nSex :" + sex +  "\nIs Student A Programmer :" + programmer + "\nStudent Grade Is :" + grade);
+		System.out.println("Student Name Is :" + StudentName + "\nStudent Id Is :" + studentID + "\nSex :" + sex
+				+ "\nIs Student A Programmer :" + programmer + "\nStudent Grade Is :" + grade);
 	}
-	
+
 	public void student() {
 		System.out.println();
-		
+
 	}
-	
+
 	public void student(String studentName, int studentID, char sex, boolean programmer, float grade) {
 
 		this.StudentName = studentName;
@@ -38,8 +39,8 @@ public class Student {
 		this.sex = sex;
 		this.programmer = programmer;
 		this.grade = grade;
-		System.out.println("Student Name Is :" + StudentName + "\nStudent Id Is :" + studentID + "\nSex :" + sex +  "\nIs Student A Programmer :" + programmer + "\nStudent Grade Is :" + grade);
+		System.out.println("Student Name Is :" + StudentName + "\nStudent Id Is :" + studentID + "\nSex :" + sex
+				+ "\nIs Student A Programmer :" + programmer + "\nStudent Grade Is :" + grade);
 	}
-
 
 }

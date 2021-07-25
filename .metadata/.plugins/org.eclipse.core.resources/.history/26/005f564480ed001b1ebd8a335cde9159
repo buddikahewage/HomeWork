@@ -1,0 +1,20 @@
+package hw7Q3Encapsulation01;
+
+import java.io.ObjectInputStream.GetField;
+
+public class TestEmployee {
+
+	public static void main(String[] args) {
+		Employee employee = new Employee();
+		employee.setEmployeeName("Bonny");
+		employee.setEmployeeage(37);
+		employee.setEmployeesex('M');
+		employee.setUsCitizen(true);
+		
+		System.out.println(" Name: "+ employee.getEmployeeName() + " \n Age: " + employee.getEmployeeage() + " \n Sex: " + employee.getEmployeesex() + " \n USCitizen: " + employee.isUsCitizen() );
+		
+		
+
+	}
+
+}
